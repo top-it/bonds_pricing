@@ -22,7 +22,22 @@ shinyUI(
     
       
       h4("Price : "),
-      verbatimTextOutput("price")
+      verbatimTextOutput("price"),
+      
+      h4("User Guide"),
+      p("This simple application evaluate a vanilla bond instrument."),
+      h5("Parameters :"),
+      p("Face value : the last paiement"),
+      p("Coupon : The periodic paiement"),
+      p("Number of coupon : the remaining periods until maturity"),
+      p("Yield to maturity : Interest rate at the date of evaluation"),
+      
+      p("Submit Button : luch the calculation"),
+      
+      h5("Source code : "),
+      
+      p("Available in the github repo : https://github.com/top-it/bonds_pricing ")
+      
       )
     
     )
